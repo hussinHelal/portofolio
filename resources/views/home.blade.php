@@ -81,13 +81,13 @@
         </div> --}}
         
         <div class="row justify-content-center mt-3 header-container">
-            <div class="col-md-8 d-flex justify-content-between align-items-center">
+            <div class="col-md-12 d-flex justify-content-between align-items-center">
                 <header id="header-section">
                     <p>   My Name Is Hussein Helal, i'm <span class='text-success'> 25yo </span> and i'm a <span class='text-primary'> Lamp Stack Developer, </span> 
                   <br>  i used <span class='text-primary'> java </span> for a couple years for desktop application and i moved to web and i loved <span class='text-danger'> Laravel </span> </p> <br>
 
                 </header>
-                <img src="{{asset('public/img/wall.png')}}" alt="header_picture" style="max-width: 400px; height: auto;">
+                <img src="{{ asset('imgs/wall.png') }}" alt="header_picture" style="max-width: 400px; height: auto;">
             </div>
         </div>
         <div class="separator"></div>
