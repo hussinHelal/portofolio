@@ -13,12 +13,32 @@
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/ebca36437e.js" crossorigin="anonymous"></script>
+
+   
+
+    <!-- Custom Styles for Navbar -->
+    <style>
+        .navbar {
+            background-color: #1a2a4b !important; /* Dark blue background for navbar */
+            font-size: 1.1rem; /* Bigger font for navbar links */
+        }
+        .navbar-brand,
+        .navbar-nav .nav-link {
+            color: #f8f9fa !important; /* Light text color for contrast */
+        }
+        .navbar-toggler-icon {
+            filter: invert(1); /* Make toggler icon visible on dark background */
+        }
+    </style>
+
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     @yield('logo')
@@ -36,11 +56,17 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                        <li class='nav-item'>
-                            <a class='nav-link' href="">Home</a>
+                            <a class='nav-link' href="#header-section">Home</a>
+                       </li>
+                       <li class='nav-item'>
+                            <a class='nav-link' href="#skills-section">Skills</a>
+                       </li>
+                       <li class='nav-item'>
+                            <a class='nav-link' href="#projects-section">Projects</a>
                        </li>
                        
                        <li class='nav-item'>
-                            <a class='nav-link' href="">Contact</a>
+                            <a class='nav-link' href="#contact-section">Contact</a>
                        </li>
                     </ul>
                 </div>
@@ -50,6 +76,12 @@
         <main class="py-4">
             @yield('content')
         </main>
+
+        <footer class="footer mt-auto py-3 bg-dark text-white text-center">
+            <div class="container">
+                <span class="text-white">Created by Hussein Helal | @2025</span>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
