@@ -33,11 +33,13 @@
     }
 
     .skill-box .icon {
-        width: 80px;
-        height: 80px;
+        width: 100%;
+        max-width: 80px;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 0 auto;
         margin-bottom: 10px;
     }
 
@@ -47,8 +49,9 @@
     }
 
     .skill-box img {
-        width: 80px;
-        height: 80px;
+        width: 100%;
+        max-width: 80px;
+        height: auto;
         object-fit: contain;
         display: none; /* Hide if not used anymore, or remove if original images are completely replaced */
     }
@@ -81,13 +84,13 @@
         </div> --}}
         
         <div class="row justify-content-center mt-3 header-container">
-            <div class="col-md-12 d-flex justify-content-between align-items-center">
+            <div class="col-12 d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start">
                 <header id="header-section">
                     <p>   My Name Is Hussein Helal, i'm <span class='text-success'> 25yo </span> and i'm a <span class='text-primary'> Lamp Stack Developer, </span> 
                   <br>  i used <span class='text-primary'> java </span> for a couple years for desktop application and i moved to web and i loved <span class='text-danger'> Laravel </span> </p> <br>
 
                 </header>
-                <img src="{{ asset('imgs/wall.png') }}" alt="header_picture" style="max-width: 400px; height: auto;">
+                <img src="{{ asset('imgs/wall.png') }}" alt="header_picture" class="img-fluid mt-3 mt-md-0" style="max-width: 400px; height: auto;">
             </div>
         </div>
         <div class="separator"></div>
@@ -99,7 +102,7 @@
                </span>  
 
                <div class="wrapper d-flex flex-wrap justify-content-center gap-3">
-                <div class="skill-box text-center">
+                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-brands fa-html5"></i>
@@ -107,7 +110,7 @@
                     </div>
                     <p>HTML5</p>
                 </div>
-                <div class="skill-box text-center">
+                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-brands fa-css3-alt"></i>
@@ -115,7 +118,7 @@
                     </div>
                     <p>CSS</p>
                 </div>
-                <div class="skill-box text-center">
+                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-brands fa-js"></i>
@@ -123,7 +126,7 @@
                     </div>
                     <p>JavaScript</p>
                 </div>
-                <div class="skill-box text-center">
+                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-brands fa-bootstrap"></i>
@@ -131,7 +134,7 @@
                     </div>
                     <p>Bootstrap</p>
                 </div>
-                <div class="skill-box text-center">
+                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-brands fa-php"></i>
@@ -139,7 +142,7 @@
                     </div>
                     <p>PHP</p>
                 </div>
-                <div class="skill-box text-center">
+                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-brands fa-laravel"></i>
@@ -147,7 +150,7 @@
                     </div>
                     <p>Laravel</p>
                 </div>
-                <div class="skill-box text-center">
+                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-brands fa-vuejs"></i>
@@ -155,7 +158,7 @@
                     </div>
                     <p>Vue.js</p>
                 </div>
-                <div class="skill-box text-center">
+                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-solid fa-code"></i>
@@ -163,7 +166,7 @@
                     </div>
                     <p>jQuery</p>
                 </div>
-                <div class="skill-box text-center">
+                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-solid fa-database"></i>
@@ -182,7 +185,7 @@
                     <h3 id="projects-section">Projects</h3>
                 </span>
                 <div class="row mt-3 justify-content-center">
-                    <div class="col-md-6 mb-4">
+                    <div class="col-md-6 mb-4 col-12">
                         <div class="card border-0">
                             <div class="card-body text-center">
                                 <h5 class="card-title">Project Title 1</h5>
@@ -192,7 +195,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 mb-4">
+                    <div class="col-md-6 mb-4 col-12">
                         <div class="card border-0">
                             <div class="card-body text-center">
                                 <h5 class="card-title">Project Title 2</h5>
