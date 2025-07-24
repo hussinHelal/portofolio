@@ -82,27 +82,29 @@
                 </div>
             </div>
         </div> --}}
-        
-        <div class="row justify-content-center mt-3 header-container">
-            <div class="col-12 d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start">
-                <header id="header-section">
-                    <p>   My Name Is Hussein Helal, i'm <span class='text-success'> 25yo </span> and i'm a <span class='text-primary'> Lamp Stack Developer, </span> 
-                  <br>  i used <span class='text-primary'> java </span> for a couple years for desktop application and i moved to web and i loved <span class='text-danger'> Laravel </span> </p> <br>
 
+        <div class="mt-3 row justify-content-center header-container">
+            <div class="text-center col-12 d-flex flex-column flex-md-row justify-content-between align-items-center text-md-start">
+                <header id="header-section">
+                    <h2>Hi, I'm Hussein Helal</h2>
+                    <p>
+                        I'm a 25-year-old <strong class='text-primary'>LAMP Stack Developer</strong> with a strong passion for web development.
+                        I specialize in building modern, efficient, and scalable web applications using the <strong class="text-danger">Laravel</strong> framework and the LAMP Stack.
+                    </p>
                 </header>
-                <img src="{{ asset('imgs/wall.png') }}" alt="header_picture" class="img-fluid mt-3 mt-md-0" style="max-width: 400px; height: auto;">
+                <img src="{{ asset('imgs/wall.png') }}" alt="header_picture" class="mt-3 img-fluid mt-md-0" style="max-width: 400px; height: auto;">
             </div>
         </div>
         <div class="separator"></div>
 
-        <div class="row justify-content-center mt-2">
+        <div class="mt-2 row justify-content-center">
             <div class="col-md-8">
                <span class="text-center">
                 <h3 id="skills-section">Skills</h3>
-               </span>  
+               </span>
 
-               <div class="wrapper d-flex flex-wrap justify-content-center gap-3">
-                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
+               <div class="flex-wrap gap-3 wrapper d-flex justify-content-center">
+                <div class="text-center skill-box col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-brands fa-html5"></i>
@@ -110,7 +112,7 @@
                     </div>
                     <p>HTML5</p>
                 </div>
-                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="text-center skill-box col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-brands fa-css3-alt"></i>
@@ -118,7 +120,7 @@
                     </div>
                     <p>CSS</p>
                 </div>
-                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="text-center skill-box col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-brands fa-js"></i>
@@ -126,7 +128,7 @@
                     </div>
                     <p>JavaScript</p>
                 </div>
-                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="text-center skill-box col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-brands fa-bootstrap"></i>
@@ -134,7 +136,7 @@
                     </div>
                     <p>Bootstrap</p>
                 </div>
-                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="text-center skill-box col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-brands fa-php"></i>
@@ -142,7 +144,7 @@
                     </div>
                     <p>PHP</p>
                 </div>
-                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="text-center skill-box col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-brands fa-laravel"></i>
@@ -150,7 +152,7 @@
                     </div>
                     <p>Laravel</p>
                 </div>
-                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="text-center skill-box col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-brands fa-vuejs"></i>
@@ -158,7 +160,7 @@
                     </div>
                     <p>Vue.js</p>
                 </div>
-                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="text-center skill-box col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-solid fa-code"></i>
@@ -166,7 +168,7 @@
                     </div>
                     <p>jQuery</p>
                 </div>
-                <div class="skill-box text-center col-6 col-sm-4 col-md-3 col-lg-2">
+                <div class="text-center skill-box col-6 col-sm-4 col-md-3 col-lg-2">
                     <div class="skill-title">
                         <div class="icon">
                             <i class="fa-solid fa-database"></i>
@@ -178,28 +180,28 @@
             </div>
         </div>
         <div class="separator"></div>
-        
-        <div class="row justify-content-center mt-4">
+
+        <div class="mt-4 row justify-content-center">
             <div class="col-md-8">
                 <span class="text-center">
                     <h3 id="projects-section">Projects</h3>
                 </span>
-                <div class="row mt-3 justify-content-center">
-                    <div class="col-md-6 mb-4 col-12">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
+                <div class="mt-3 row justify-content-center">
+                    <div class="mb-4 col-md-6 col-12">
+                        <div class="border-0 card">
+                            <div class="text-center card-body">
                                 <h5 class="card-title">Project Title 1</h5>
-                                <img src="{{asset('public/img/project1.png')}}" class="img-fluid mb-2" alt="Project 1">
+                                <img src="{{asset('public/img/project1.png')}}" class="mb-2 img-fluid" alt="Project 1">
                                 <p class="card-text">This is a description of project 1. It highlights the key features and technologies used.</p>
                                 <a href="#" class="btn btn-link">GitHub Link</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 mb-4 col-12">
-                        <div class="card border-0">
-                            <div class="card-body text-center">
+                    <div class="mb-4 col-md-6 col-12">
+                        <div class="border-0 card">
+                            <div class="text-center card-body">
                                 <h5 class="card-title">Project Title 2</h5>
-                                <img src="{{asset('public/img/project2.png')}}" class="img-fluid mb-2" alt="Project 2">
+                                <img src="{{asset('public/img/project2.png')}}" class="mb-2 img-fluid" alt="Project 2">
                                 <p class="card-text">This is a description of project 2. It highlights the key features and technologies used.</p>
                                 <a href="#" class="btn btn-link">GitHub Link</a>
                             </div>
@@ -210,12 +212,12 @@
         </div>
         <div class="separator"></div>
 
-        <div class="row justify-content-center mt-4">
+        <div class="mt-4 row justify-content-center">
             <div class="col-md-8">
                 <span class="text-center">
                     <h3 id="contact-section">Contact Me</h3>
                 </span>
-                <div class="card border-0 mt-3">
+                <div class="mt-3 border-0 card">
                     <div class="card-body">
                         <p><strong>Name:</strong> Hussein Helal</p>
                         <p><strong>Email:</strong> hussinhelal202@gmail.com</p>
@@ -242,7 +244,7 @@
                 </div>
             </div>
         </div>
-        
+
 
     </div>
 </div>
