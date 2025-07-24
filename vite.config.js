@@ -12,10 +12,18 @@ export default defineConfig({
         }),
     ],
     server: {
-        host: '192.168.1.107',
+        host: '127.0.0.1',
         port: 5173,
         hmr: {
             host: 'localhost'
+        }
+    },
+    css: {
+        preprocessorOptions: {
+            scss: {
+                quietDeps: true, // Suppress deprecation warnings from dependencies
+                silenceDeprecations: ['import', 'global-builtin', 'color-functions'], // Suppress specific deprecations
+            }
         }
     }
 });
